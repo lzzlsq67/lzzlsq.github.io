@@ -13,8 +13,7 @@ author :
   name : Hongxuan Zhao
   email : hxzhenu@gmail.com
   github : javaor
-  twitter : username
-  feedburner : feedname
+
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 
@@ -53,7 +52,7 @@ JB :
   #   - Only the following values are falsy: ["", null, false]
   #   - When setting BASE_PATH it must be a valid url.
   #     This means always setting the protocol (http|https) or prefixing with "/"
-  BASE_PATH : /javaor.github.io
+  BASE_PATH : /
 
   # By default, the asset_path is automatically defined relative to BASE_PATH plus the enabled theme.
   # ex: [BASE_PATH]/assets/themes/[THEME-NAME]
