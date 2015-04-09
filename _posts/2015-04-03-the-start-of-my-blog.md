@@ -1,6 +1,8 @@
 ---
 layout: page
 title: 欢迎来到Javaor的编程世界!
+category: javaor
+tags: java
 ---
 
 ## 我的第一篇博客，欢迎大家!!

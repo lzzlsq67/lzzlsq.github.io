@@ -1,24 +1,14 @@
-      <footer class="footer text-center">
+	      <footer class="footer text-center">
 	    <script type="text/javascript" src="{{ ASSET_PATH }}/static/js/jquery.min.js"></script>
 		<script type="text/javascript" src="{{ ASSET_PATH }}/static/js/bootstrap.min.js"></script>
 		<script type="text/javascript" src="{{ ASSET_PATH }}/static/js/core.js"></script>
 		{% if site.comments.duoshuo.name %}
-		<!-- duoshuo Begin -->
+		
 	   <!-- 多说评论框 start -->
 		<div class="ds-thread" data-thread-key="{{ page.id }}" data-title="{{ page.title }}" data-url="https://javaor.github.io{{ page.url }}"></div>
 		<!-- 多说评论框 end -->
-		<script type="text/javascript">
-		var duoshuoQuery = {short_name:"{{ site.comments.duoshuo.name }}"};
-			(function() {
-			  var ds = document.createElement('script');
-			  ds.type = 'text/javascript';ds.async = true;
-			  ds.src = 'http://static.duoshuo.com/embed.js';
-			  ds.charset = 'UTF-8';
-			  (document.getElementsByTagName('head')[0] ||
-			  document.getElementsByTagName('body')[0]).appendChild(ds);
-			})();
-      </script>
-      <!-- duoshuo End -->
+		
+      
       {% endif %}
 
         <p>&copy; 2014-{{ site.time | date: '%Y' }} <a href="/" target="_blank" title="{{ site.description }}">{{ site.author.name }}</a> CC BY-NC-SA 3.0. <a href="https://github.com/javaor/javaor.github.io" target="_blank" title="https://github.com/javaor/javaor.github.io">Theme</a> build with <a href="//jekyllrb.com/" target="_blank" title="Transform your plain text into static websites and blogs.">Jekyll</a>.
