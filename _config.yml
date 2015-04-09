@@ -54,7 +54,14 @@ redcarpet:
 comments :
     provider : duoshuo
     duoshuo : 
-      name : javaor
+       name : javaor
+       rcomments:
+	num: 8
+	avatar: 0
+	time: 0
+	title: 0
+	admin: 0
+	length: 12
 analytics:
     baidu:
        siteid: 20ec670f7b89919814242334f3ae8acc
