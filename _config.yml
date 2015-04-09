@@ -54,7 +54,7 @@ redcarpet:
 comments :
     provider : duoshuo
     duoshuo : 
-      short_name : javaor
+      name : javaor
 analytics:
-    cnzz:
-        uid:
+    baidu:
+        siteid: javaor.github.io
