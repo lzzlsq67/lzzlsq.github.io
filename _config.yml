@@ -4,11 +4,9 @@ tagline:
 url:
 author:
     name: 赵宏轩
-    github: github.com/javaor
+    github: javaor
     email: hxzhenu@gmail.com
-    zhihu:
-    facebook: facebook.com
-    weibo: weibo.com/hongxuanzhao
+    weibo: hongxuanzhao
 atom_path: /atom.xml
 rss_path: /rss.xml
 donate_url:
@@ -39,9 +37,10 @@ whitelist: []
 gems:      []
 
 # Conversion
-#markdown:    redcarpet
 highlighter: pygments
-#lsi:         false
+markdown: redcarpet
+redcarpet:
+  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "strikethrough", "superscript", "with_toc_data", "highlight", "prettify"]
 excerpt_separator: "\n\n"
 
 # Backwards-compatibility
@@ -52,16 +51,10 @@ redcarpet:
   extensions: [ "fenced_code_blocks", "hard_wrap","autolink", "tables", "strikethrough", "superscript", "with_toc_data", "highlight", "prettify","no_intra_emphasis"]
 
 # comment
-comments:
-  duoshuo:
-    name:
-    rcomments:
-        num: 8
-        avatar: 0
-        time: 0
-        title: 0
-        admin: 0
-        length: 12
+comments :
+    provider : duoshuo
+    duoshuo : 
+      short_name : javaor
 analytics:
     cnzz:
         uid:
