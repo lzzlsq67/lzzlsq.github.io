@@ -1,7 +1,7 @@
 # Site settings
-title : Javaor's Blog
-tagline:
-url:
+title : Javaor Blog
+tagline: 赵小轩的代码空间
+url: https://javaor.github.io
 author:
     name: 赵宏轩
     github: javaor
