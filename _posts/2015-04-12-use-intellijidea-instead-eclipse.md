@@ -17,34 +17,34 @@ tags: [java,intellij]
 ###设置项目的库文件，
 想要项目运行，就需要添加项目需要的jar包啦，点击`File->Project Structure`进入项目结构界面，点击`Module`进入模块设置，点击绿色的`+`号，
 加入spring，web等模块
-![加入模块](http://img.hb.aicdn.com/951d1a3c60b1a034d64c5060095efd0c054495ee968b-ZigYfC_fw658)
+![加入模块](http://i2.tietuku.com/5d2dd21a7a197043s.png)
 ###输出的war包
 设置项目打的war包的
 点击`artifacts`点击绿色的`+`,选择`Web Application:Achieve`也就是war包，点击`output directory`选择输出的路径
-![生成war包](http://img.hb.aicdn.com/57575b33288ba901cfd4743777fcae2795ea1c8c209a9-3NKBBG_fw658)
+![生成war包](http://i2.tietuku.com/0b9e41ca80ca029as.png)
 
 ## 初体验之集成工具的使用
 ###Jboss的使用
 1. 点击`Run ->edit configration`进入服务器设置
 2. 点击绿色的`+`选择`Jboss server`,选择`local `进入Jboss设置
-![Jboss设置](http://img.hb.aicdn.com/34f653113e7c9fc35a5e11cabe42da7028edd60e7237-zoevwA_fw658)
+![Jboss设置](http://i2.tietuku.com/f1cf95cf1ccb78e1s.png)
 3. 点击`Application server`后面的`configure`选择Jboss的主目录，Intellij idea会自动搜索jboss下的jar包
-![生成war包](http://img.hb.aicdn.com/6cbc2ecb50ef0a19ae4b8c36089baa1f0851ed14be36-OhhhpN_fw658)
+![生成war包](http://i2.tietuku.com/cdd125a88d8f0430s.png)
 设置完主目录以后点击`User alternative JRE`选择JRE目录
-![生成war包](http://img.hb.aicdn.com/901d4c20d80ddb70b09c968d96cab360f4cadd8a7505-Y9ZfF4_fw658)
+![生成war包](http://i2.tietuku.com/aeecfd9418e1b94as.png)
 4. 点击`server instance`选择`default`作为当前的服务器实例
 5. 点击`deployment`选项卡，选择刚才所打的war包
 6. 点击完成，Jboss服务器就搭建好了。
-![Jboss启动](http://img.hb.aicdn.com/2f0d8c10b0a217b56724a2f2ed3556ff3cc0a8b0ced4-a1jaGP_fw658)
+![Jboss启动](http://i2.tietuku.com/e4b9eead835dc1ads.png)
 7. 点击工具栏的`Run->Run weixin` weixin是你设置的Jbosss服务器名，然后Jboss就启动起来了 =。=
 ###SSH工具的使用
 点击菜单栏`Tools->start SSH session-Edit credentials`编辑你的服务器的IP端口等就可以登录服务器了。
-###
-#2.intellij idea快捷键使用
-点击菜单栏`Help->default keyMap reference`会自动打开一个PDF，里面是当前快捷键的设置，如果英文好一点的话，看起来应该毫不费力
-![快捷键的使用](http://img.hb.aicdn.com/ee568a23a35334e2283a1e42f87f221fd08f05b050d77-bDxqyn_fw658)
-实用快捷键:
 
+#2.intellij idea快捷键使用
+
+点击菜单栏`Help->default keyMap reference`会自动打开一个PDF，里面是当前快捷键的设置，如果英文好一点的话，看起来应该毫不费力
+![快捷键的使用](http://i2.tietuku.com/e403cd26fa8f754cs.png)
+实用快捷键:
 
     Ctrl+/      行注释（// ）
     Ctrl+Shift+/块注释（*...*/ ）
