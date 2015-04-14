@@ -8,13 +8,12 @@ tags: java
 ## 我的第一篇博客，欢迎大家!!
 
 下面的`Hello Jekyll.java` 使用高亮显示:
-
+```java
     public class Test {
 	public static void main(String[] args) {
-		System.out.println("Hello Jekyll");	
-	
+		System.out.println("Hello Jekyll");
 	}
-
+```
 The theme should reference these variables whenever needed.
     
 ## Sample Posts
