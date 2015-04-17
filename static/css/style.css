@@ -228,3 +228,23 @@ line-height: 1;
 border-radius: 5px;
 background: #f5f5f5;
 }
+.tagcloud a{
+		padding:6px 8px;
+		background: #ddd;
+		-webkit-transition-duration: .3s;
+		-moz-transition-duration: .3s;
+		display:inline-block;
+		margin: 0px -1px 2px 0px;
+		font-size:11px !important;
+	}
+.tagcloud a:hover{ background:#555;}
+
+.widget-container {	clear:both;	}
+	.widget-container ul{
+		padding-left:0px;
+		}
+		.widget-container li {
+			line-height: 18px;
+			overflow: hidden;
+			list-style-type:none;
+		}
