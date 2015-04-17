@@ -1,7 +1,7 @@
 # Site settings
 title : Javaor Blog
 tagline: 赵小轩的代码空间
-url: https://javaor.github.io
+url: http://zeusjava.com
 author:
     name: 赵宏轩
     github: javaor
@@ -60,7 +60,7 @@ comments :
         avatar: 0
         time: 0
         title: 0
-        admin: 0
+        admin: 1
         length: 12
          
 analytics:
