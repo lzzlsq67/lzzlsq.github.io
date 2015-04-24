@@ -14,7 +14,7 @@ tags: js 乱码
 	
 ```javascript
 	var username=$("username").val();
-	encodeURI(encodeURI(licenceNo))
+	encodeURI(encodeURI(username))
 
 ```
 
