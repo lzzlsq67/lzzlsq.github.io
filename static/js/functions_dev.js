@@ -94,7 +94,7 @@ function startHeartAnimation() {
 
 function getDaysInMonth(month) {
 	var data = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31];
-	return data[month];
+	return data[month-1];
 }
 
 function timeElapse(date, mode) {
@@ -109,6 +109,7 @@ function timeElapse(date, mode) {
 	if (seconds < 0) {
 		seconds += 60;
 		current.setMinutes(current.getMinutes() - 1);
+		
 	}
 	minutes = current.getMinutes() - date.getMinutes();
 	if (minutes < 0) {
