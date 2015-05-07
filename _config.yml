@@ -1,5 +1,5 @@
 # Site settings
-title : Javaor Blog
+title : ZeusJava Blog
 tagline: 赵小轩的代码空间
 url: http://zeusjava.com
 author:
@@ -8,7 +8,6 @@ author:
     email: hxzhenu@gmail.com
     weibo: hongxuanzhao
 atom_path: /atom.xml
-rss_path: /rss.xml
 donate_url:
 
 # Outputting
