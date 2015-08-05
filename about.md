@@ -31,5 +31,3 @@ RSS：[{{ site.url }}{{ '/rss.xml' }}](/rss.xml)
 {% endif %}
 
 {% include support.html %}
-
-{% include comments.html %}
