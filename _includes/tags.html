@@ -3,7 +3,7 @@
 {% assign tag_words = site_tags | split:',' | sort %}
 <!-- tag_words: {{ tag_words }} -->
 
-<h4>标签</h4>
+<h3>标签</h3>
 <div class="tagcloud">
 	  {% for item in (0..site.tags.size) %}{% unless forloop.last %}
   {% capture this_word %}{{ tag_words[item] | strip_newlines }}{% endcapture %}

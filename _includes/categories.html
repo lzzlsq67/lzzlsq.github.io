@@ -2,11 +2,11 @@
 {% assign category_words = site_categories | split:',' | sort %}
 
 <section>
-  <h4>分类目录</h4>
+  <h3>分类目录</h3>
   <div class="widget-container">
    {% for category in site.categories %}
-	<li><a href="">{{ category | first }}({{ category | last | size }})</a></li>
-{% endfor %}
+	<li><a href="{{ '/categories.html' }}#{{ category | first }}">{{ category | first }}（{{ category | last | size }}）</a></li>
+   {% endfor %}
   </div>
  
 </section>
