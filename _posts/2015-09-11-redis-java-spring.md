@@ -4,7 +4,7 @@ title:  "Redis 整合Spring"
 keywords: "redis"
 description: "Redis整合Spring进行数据缓存"
 category: spring
-tags: java,redis,spring
+tags: redis
 ---
 
 Redis是一种性能非常高效的Key-Value数据库，在企业项目开发中应用广泛，因为一直用Spring，所以决定使用Spring支持的`spring-data-redis`,java中Redis有多种客户端，Spring推荐的是
