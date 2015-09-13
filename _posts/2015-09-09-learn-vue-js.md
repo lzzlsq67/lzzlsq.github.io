@@ -4,7 +4,7 @@ title:  "vue.js学习笔记（一）"
 keywords: "vue.jss"
 description: "MVVM框架vue.js学习笔记，vue.js简介"
 category: javascript
-tags: js,vue.js
+tags: js
 ---
 
 ##简介
