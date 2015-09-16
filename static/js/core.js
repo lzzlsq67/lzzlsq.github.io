@@ -73,7 +73,7 @@
     function findEntries(q) {
       var matches = [];
       var rq = new RegExp(q, 'im');
-      var rl = /^http:\/\/blog\.javachen\.com\/(.+)$/;
+      var rl = /^http:\/\/zeusjava\.com\/(.+)$/;
       for (var i = 0; i < entries.length; i++) {
         var entry = entries[i];
         var title = $(entry.getElementsByTagName('title')[0]).text();
@@ -86,7 +86,7 @@
           matches.push({'title': title, 'link': link, 'date': updated, 'content': content});
         }
       }
-      var html = '<h3>Search Result:</h3>';
+      var html = '<h3>搜索结果:</h3><br/>';
       for (var i = 0; i < matches.length; i++) {
         var match = matches[i];
         html += '<article class="news-item"><h4><a href="' + match.link + '">' + htmlEscape(match.title) + '</a></h4>';
@@ -99,15 +99,21 @@
       }
       $('#search-form').submit(function() {
         var query = $('#query').val();
-        //$('#query');.blur().attr('disabled', true);
         $('.raw').hide();
         $('#search-loader').show();
         if (entries == null) {
           $.ajax({url: '/atom.xml?r=' + (Math.random() * 99999999999), dataType: 'xml', success: function(data) {
             entries = data.getElementsByTagName('entry');
             findEntries(query);
-          }});
-        } else {
+          },
+			 error: function(XMLHttpRequest, textStatus, errorThrown) {
+					alert(XMLHttpRequest.status);
+					alert(XMLHttpRequest.readyState);
+					alert(textStatus);
+		  }
+		  });
+       
+		} else {
           findEntries(query);
         }
         $('#query').blur().attr('disabled', false);
