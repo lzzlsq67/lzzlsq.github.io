@@ -4,7 +4,7 @@ title:  "Java中使用DES对称加解密"
 keywords: "java"
 description: "使用DES对称加密，来保证服务期和各个客户端之间的联系安全可靠"
 category: java
-tags: java,加密
+tags: java
 ---
 
 ##DES 
