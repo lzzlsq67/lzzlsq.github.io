@@ -1,12 +1,14 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>Page not found - {{ site.title }}</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="/favicon.png">
-
-    <script type="text/javascript">
+<html lang="en"><!--<![endif]--><!-- BEGIN HEAD -->
+<head>
+      <meta charset="UTF-8">
+    <title></title>
+     <meta content="width=device-width, initial-scale=1.0" name="viewport">
+	<meta content="" name="description">
+	<meta content="" name="author">
+	  <link rel="stylesheet" href="/static/css/bootstrap.min.css" media="all">
+      <link rel="stylesheet" href="/static/css/font-awesome.css" media="all">
+	  <link rel="stylesheet" href="/static/css/style.css" media="all">
+	<script type="text/javascript">
       function countDown(secs,surl){
         //alert(surl);
         var jumpto = document.getElementById('jumpto');
@@ -19,18 +21,27 @@
         }
       }
     </script>
+</head>
+     <!-- END HEAD -->
+     <!-- BEGIN BODY -->
+<body>
+      <!-- PAGE CONTENT --> 
+  <div class="container">
+        <div class="col-lg-8 col-lg-offset-2 text-center">
+	  <div class="logo">
+	    <h1>OPPS, Error 404 !</h1>
+            <br><br>
+          <p>Jump to <a href="/">HomePage</a> after <span id="jumpto" style="font-weight: bold"> 5 </span> seconds,</p>
+		 <script type="text/javascript">countDown(5,'/');</script>
+   
+		    
+      </div>
+           
+        </div>
+                
+                
+        </div>
+      <!-- END PAGE CONTENT --> 
+     <!-- END BODY -->
 
-    <style type="text/css">
-      .center { float: none; margin-left: auto; margin-right: auto; text-align: center; }
-    </style>
-  </head>
-  <body>
-    <div class="center">
-      <h1>404</h1>
-      <p>There isn't a Page here.</p>
-      <p>Jump to <a href="/">{{ site.title }}</a> after <span id="jumpto" style="font-weight: bold"> 5 </span> seconds,</p>
-      <script type="text/javascript">countDown(5,'/');</script>
-      <p>or click <a href="/" target="_parent"><span style="font-weight: bold">Here</span></a> to return.</p>
-    </div>
-  </body>
-</html>
+</body></html>
