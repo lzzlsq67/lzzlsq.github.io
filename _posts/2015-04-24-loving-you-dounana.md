@@ -3,7 +3,7 @@ layout: post
 title:  "爱~等待"
 keywords: "love"
 description: "我会在原地等你，等你回来。	"
-category: lovingDou
+category: essay
 tags: love 
 ---
 

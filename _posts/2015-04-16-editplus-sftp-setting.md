@@ -3,8 +3,8 @@ layout: post
 title:  "使用Editplus配置sftp连接服务器"
 keywords: "editplus sftp"
 description: "使用Editplus配置sftp连接到远程服务器查看服务器日志文件，上传本地文件等"
-category: editplus
-tags: editplus sftp
+category: others
+tags: editplus
 ---
 ##使用Editplus配置sftp连接服务器
 之前一直使用SSH，但是发现每次都得输入登陆密码，然后再打开 `file transfer` 工具，一层一层的打开日志的文件目录，然后把日志文件下载到本地的目录再打开

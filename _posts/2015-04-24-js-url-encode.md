@@ -3,7 +3,7 @@ layout: post
 title:  "JS URL传参中文乱码"
 keywords: "js 乱码"
 description: "JS URL 传参中文乱码的解决"
-category: js
+category: javascript
 tags: js 乱码
 ---
 在接口开发中，中间件和APP交互的时候，遇到URL传参的问题，发现到后台都是乱码。发现URL应该需要编码
