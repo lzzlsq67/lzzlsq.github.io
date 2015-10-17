@@ -9,6 +9,7 @@ tags: collection
 
 昨天在使用`KeySet`的方式遍历一个HashMap时，然后试图`remove`掉其中的一个元素的时候，Java虚拟机抛出了一个`java.util.ConcurrentModificationException`的异常。
 搜集了一下java中遍历一个Map的几种方法，主要有以下三种，只有使用使用Iterator遍历的时候才可以移除元素。其他的两种操作都有可能报ConcurrentModificationException的异常。然后顺便整理了一下遍历Map的几种方法。
+参考了StackOverFlow上的这个问题,请戳[Iterate through a HashMap](http://stackoverflow.com/questions/1066589/iterate-through-a-hashmap)
 ##方法1:使用For-Each循环迭代entrySet
 这种方法应该是使用的最多的了，一般需要使用Map的key和value时候使用这个方法
 
